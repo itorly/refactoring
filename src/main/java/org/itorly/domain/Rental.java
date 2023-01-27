@@ -1,6 +1,9 @@
 package org.itorly.domain;
 
-class Rental {
+import lombok.ToString;
+
+@ToString
+public class Rental {
     private Movie _movie;
     private int _daysRented;
     public Rental(Movie movie, int daysRented) {

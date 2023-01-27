@@ -1,5 +1,8 @@
 package org.itorly.domain;
 
+import lombok.ToString;
+
+@ToString
 public class Movie {
     public static final int CHILDRENS = 2;
     public static final int REGULAR = 0;

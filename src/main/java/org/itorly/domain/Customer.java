@@ -1,9 +1,12 @@
 package org.itorly.domain;
 
+import lombok.ToString;
+
 import java.util.Enumeration;
 import java.util.Vector;
 
-class Customer {
+@ToString
+public class Customer {
     private String _name;
     private Vector _rentals = new Vector();
 
